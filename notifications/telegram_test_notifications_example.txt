@@ -1,3 +1,16 @@
+// Template #1
+
 java \
 "-DconfigFile=notifications/telegram_config.json" \
--jar notification/allure-notifications-4.1.jar
+-jar notifications/allure-notifications-4.1.jar
+
+// Template #2
+
+java "-DconfigFile=notifications/telegram_config.json" -jar notifications/allure-notifications-4.1.jar
+
+// Local
+java "-DprojectName=Local test run" \
+"-DconfigFile=notifications/telegram_config.json" \
+-jar notifications/allure-notifications-4.1.jar \
+"-DreportLink=qa.guru" \
+"-Dcomm=Any comment here"
