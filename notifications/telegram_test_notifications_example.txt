@@ -14,3 +14,5 @@ java "-DprojectName=Local test run" \
 -jar notifications/allure-notifications-4.1.jar \
 "-DreportLink=qa.guru" \
 "-Dcomm=Any comment here"
+
+// Jenkins
