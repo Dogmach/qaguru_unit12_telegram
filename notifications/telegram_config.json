@@ -3,10 +3,10 @@
     "project": "some project",
     "environment": "some env",
     "comment": "some comment",
-    "reportLink": "qa.guru/allure",
+    "reportLink": "",
     "language": "en",
     "messenger": "telegram",
-    "allureFolder": "build/allure-report/",
+    "allureFolder": "allure-report/",
     "enableChart": true
   },
   "telegram": {
