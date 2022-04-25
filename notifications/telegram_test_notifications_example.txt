@@ -9,10 +9,18 @@ java \
 java "-DconfigFile=notifications/telegram_config.json" -jar notifications/allure-notifications-4.1.jar
 
 // Local
-java "-DprojectName=Local test run" \
+java \
+"-DprojectName=Local test run" \
 "-DconfigFile=notifications/telegram_config.json" \
 -jar notifications/allure-notifications-4.1.jar \
 "-DreportLink=qa.guru" \
 "-Dcomm=Any comment here"
 
 // Jenkins
+java \
+"-DprojectName=${PROJECT_NAME}" \
+"-Denv=${ENVIRONMENT}"  \
+"-DreportLink=${BUILD_URL}" \
+"-Dcomm=any comment here"   \
+"-DconfigFile=${PATH_TO_FILE}"  \
+-jar allure-notifications-4.1.jar
