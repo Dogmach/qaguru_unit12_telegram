@@ -3,7 +3,7 @@
     "project": "some project",
     "environment": "some env",
     "comment": "some comment",
-    "reportLink": "allure",
+    "reportLink": "https://jenkins.autotests.cloud/job/C11-dogmach666-unit12/6/allure/",
     "language": "en",
     "messenger": "telegram",
     "allureFolder": "allure-report/",
